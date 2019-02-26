@@ -72,3 +72,8 @@ Project Structure:
 ![](images/project_Structure.JPG)
 
 
+Cucumber Report:
+----------------
+
+&nbsp;&nbsp;
+![](images/cucu.JPG)
