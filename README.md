@@ -1,9 +1,12 @@
 ## Objective: RESTFul API Test cases and Test automation using ** [Karate](https://github.com/intuit/karate#quickstart)**  
 
-1. I have used ** [imgur account and its webservices](https://imgur.com)**
-2. Test CRUD operations. 
-3. In this project work I have automated basic CRUD operations, and considered only positive cases.
-4. This work is restful webservices testing.
+
+
+1. This work helps to understand what is karate framework (open source tool) and how it help's to test restful webservices (`QA perspective`).
+2. I have used ** [imgur account and its webservices](https://imgur.com)**
+3. Test CRUD operations. 
+4. In this project work I have automated basic CRUD operations, and considered only positive cases.
+5. This work is restful webservices testing.
 
 Technology stack:
 -----------------
@@ -24,7 +27,7 @@ Do git clone for downloading the project to your local machine and then import p
 Install with [git](https://git-scm.com/downloads):
 	
 ```sh
-$ git clone 
+$ git clone https://github.com/meharlist/restful-test-automation.git
 ``` 
 
 
@@ -49,22 +52,16 @@ Running test from Jenkins:
 1. in progress...
 
 
-Cucumber feature files:
-------------------------
+Cucumber feature files flow:
+----------------------------
 
-
-# Few things to understand before executing:
-
-I have seperated `api` to respective feature files and I consider them as called feature files, in other words, the test feature files `e2e` will call
+I have seperated `api` to respective feature files and I consider them as `called` feature files, in other words, the test feature files `e2e` feature will call
 `api` feature file. see below image;
 
-1. Calling feature and called feature
-
-
-
+1. During this design I have considered `Calling feature` and `Called feature` as fundamental principle, this helps my scenarios to be modular and easy to maintain.
 
 &nbsp;&nbsp;
-![](images/big_pic.JPG)
+![](images/big_pic.jpg)
 
 
 
