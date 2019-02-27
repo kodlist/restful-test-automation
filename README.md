@@ -8,6 +8,48 @@
 4. In this project work I have automated basic CRUD operations, and considered only positive cases.
 5. This work is restful webservices testing.
 
+Getting started:
+----------------
+
+1. Get new user account with `imgur.com`
+
+2. Next, You need an fake or real application. Do not worry if you don't have one.
+
+3. You can use `https://www.getpostman.com/oauth2/callback`. consider this as your application.
+
+4. Now, register the `url` with `imgur`. see this link [imgur](https://apidocs.imgur.com/)
+
+5. Go to `REGISTRATION QUICKSTART` section of the above page.
+
+6. Follow the steps as shown.
+
+7. You will have new `Client ID` and `Client Secret`.
+
+8. You can also see the `Client ID` and `Client Secret` in `imgur` website under user account settings section.
+
+9. You need this two `Client ID` and `Client Secret` to use imgur webservices, meaning, you can do post, get, put or delete operations.
+
+10. This how your `imgur` user account settings will look like. see below image:
+
+
+&nbsp;&nbsp;
+![](images/imgur.jpg)
+
+
+11. Next, please follow `Download code` section (see below), and then open feature file `oauth2.feature` which is under `src\test\java\demo\oath` package.
+
+12. Replace `Client ID` and `Client Secret` with your's.
+
+13. Replace `username` and `password` with your's. Note, these two will be your `imgur` user credentials.
+
+
+&nbsp;&nbsp;
+![](images/oauth.JPG)
+
+
+
+
+
 Technology stack:
 -----------------
 
