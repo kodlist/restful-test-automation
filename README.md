@@ -44,7 +44,7 @@ Getting started:
 
 
 &nbsp;&nbsp;
-![](images/oauth.JPG)
+![](images/oauth.png)
 
 
 
