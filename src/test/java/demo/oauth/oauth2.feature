@@ -8,10 +8,10 @@ Scenario: oauth 2 flow
 
 * path 'token'
 * form field grant_type = 'password'
-* form field client_id = 'f6495d4ae1f1086'
-* form field client_secret = '2b0a1d2885226640b363658563ce431e3404b6a1'
-* form field username = 'mkod100'
-* form field password = 'london99'
+* form field client_id = 'yourclientid'
+* form field client_secret = '3gfa1d2885226640b363658563ce431e3404b6a1'
+* form field username = 'useraccountname'
+* form field password = 'accountpwd'
 * method post
 * status 200
 
