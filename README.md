@@ -69,7 +69,7 @@ Do git clone for downloading the project to your local machine and then import p
 Install with [git](https://git-scm.com/downloads):
 	
 ```sh
-$ git clone https://github.com/meharlist/restful-test-automation.git
+$ git clone https://github.com/kodlist/restful-test-automation.git
 ``` 
 
 
@@ -97,7 +97,7 @@ Running test from Jenkins:
 Cucumber feature files flow:
 ----------------------------
 
-I have seperated `api` to respective feature files and I consider them as `called` feature files, in other words, the test feature files `e2e` feature will call
+I have separated `api` to respective feature files and I consider them as `called` feature files, in other words, the test feature files `e2e` feature will call
 `api` feature file. see below image;
 
 1. During this design I have considered `Calling feature` and `Called feature` as fundamental principle, this helps my scenarios to be modular and easy to maintain.
